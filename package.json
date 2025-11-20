@@ -1,4 +1,9 @@
 {
+  "homepage": "https://zoggie.github.io/runner",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
   "name": "copy-of-gemini-runner",
   "private": true,
   "version": "0.0.0",
